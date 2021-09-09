@@ -22,6 +22,18 @@ Creation d'une authentification d'un utilisateur sur un serveur nodeJS. nous uti
 
 ### instalation & initialisation du projet
 
+yarn add express
+yarn add nodemon -g
+yarn add cors
+yarn add pg
+yarn add bcrypt
+yarn add jsonwebtoken
+yarn add dotenv
+
+ou 
+
+yarn add express nodemon cors pg bcrypt jsonwebtoken dotenv
+
 #### 1 création des dossier et ficher
 
 2 Creation de la data base 
