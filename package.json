@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "name": "User-Authorization",
+  "version": "1.0.0",
+  "description": "Tuto",
+  "main": "server.js",
+  "repository": "git@github.com:Cide74/User-Authorization.git",
+  "author": "Régis BRUNET BLEC <regis.blec@gmail.com>",
+  "license": "MIT"
+}

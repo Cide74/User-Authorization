@@ -24,3 +24,7 @@ Creation d'une authentification d'un utilisateur sur un serveur nodeJS. nous uti
 
 #### 1 création des dossier et ficher
 
+2 Creation de la data base 
+    a creer sur ElephantSQL
+    creation de .env
++  et du lien a la DB
