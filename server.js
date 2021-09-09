@@ -19,6 +19,10 @@ else {
     console.log("Data logging initiated!");}
 });
 
+const  user  =  require("./routes/user");
+
+app.use("/user",  user);  //Route for /user endpoint of API
+
 app.get("/", (req, res) => {
     res.status(200).send("Engine Started, Ready to take off!");
 })
