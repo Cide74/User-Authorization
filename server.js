@@ -1,11 +1,13 @@
 const express  =  require("express");
 const dotenv = require("./configs/dotenv");
 const client  =  require("./configs/database");
+const cors = require('cors');
 
 const app = express(); //Initialized express
 
 app.use(express.json());
 app.use(cors());
+
 
 const port = process.env.PORT || 5000;
 
@@ -19,7 +21,7 @@ else {
     console.log("Data logging initiated!");}
 });
 
-const  user  =  require("./routes/user");
+const user  =  require("./routes/users");
 
 app.use("/user",  user);  //Route for /user endpoint of API
 
