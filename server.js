@@ -24,7 +24,7 @@ else {
 const user  =  require("./routes/users");
 
 app.use("/user",  user);  //Route for /user endpoint of API
-
+//app.use(express.json());
 app.get("/", (req, res) => {
     res.status(200).send("Engine Started, Ready to take off!");
 })
